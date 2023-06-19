@@ -31,8 +31,8 @@ export default function Login() {
   }
 
   return (
-    <main className="h-screen w-screen flex justify-center items-center bg-gray-950">
-      <section className="w-[70vw] lg:pl-10 rounded-xl bg-stone-900 flex flex-col lg:flex-row justify-between gap-x-6 overflow-hidden shadow-xl shadow-indigo-300/20 ">
+    <main className="h-screen w-screen flex justify-center items-center bg-[radial-gradient(circle_at_bottom_left,_var(--tw-gradient-stops))] from-gray-950 to-blue-950">
+      <section className="w-[85vw] lg:w-[70vw] lg:pl-10 rounded-xl bg-stone-900 flex flex-col items-center lg:flex-row justify-between gap-x-6 overflow-hidden ">
         <div
           className='flex flex-col gap-8 py-10 px-5'
         >
@@ -179,7 +179,7 @@ export default function Login() {
             src={bgImg}
             alt="Background Image"
             draggable="false"
-            className='object-cover w-full h-full'
+            className='object-cover w-full  lg:h-[70vh]'
           />
         </div>
 
